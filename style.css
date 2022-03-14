@@ -1,0 +1,25 @@
+body{
+   background-color: beige;
+padding: 0;
+}
+img{
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.judul{
+    color: black;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 50;
+    font-size: 60px;
+
+}
+.perkenalan{
+    background-color: blueviolet;
+}
+ .data{
+     width: 100%;
+     background-color: aqua;
+ }
