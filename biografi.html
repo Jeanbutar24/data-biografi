@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>biografi</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
-    <h2>Data Biografi </h2>
-   
-    <p>JEAN RAEL HABEL BUTAR BUTAR</p>
+ 
+   <section id="intro"> 
+    <p>hi perkenalkan nama saya <span>Jean Rael Habel Butar-Butar</span></p>
+    <h3>Halaman data biografi </h3>
+    
+   </section>
+
+     
+    <div class="data">
     <table border="2px" cellpadding="10px">
         <tr>
             <td>Pendidikan</td>
@@ -44,28 +50,29 @@
             </td>
         </tr>
     </table>
-    <p>semua data yang saya sampaikan diatas adalah benar tanpa dibuat buat.
-        <br><a href="foto.html">klik untuk melihat foto saya</a>
+</div>
+    <p style="margin-left: 17px;">semua data yang saya sampaikan diatas adalah benar tanpa dibuat buat.
+        <br><a id="foto" href="foto.html">klik untuk melihat foto saya</a>
     </p>
+
+    <div class="footer" > 
+        <p>silahkan isi nama dan email anda dibawah ini, maka saya akan mengirimkan kontak ke email anda</p>
     <form action="">
         <table>
-            <tr>
-                <td>  <label for="nama">Nama Lengkap</label></td>
-                <td>: <input type="text"></td>
+            <tr>          
+                <td><input type="text" placeholder="Nama Lengkap"></td>
             </tr>
             <tr>
+                
                 <td>
-                    <label for="email">Email</label>
-                </td>
-                <td>
-                   :  <input type="text">
+                 <input type="text" placeholder="Email">
                 </td>
             </tr>
             
         </table>
-        <button>Submit</button>
+        <button id="button"><a href="mailto:jeanbutar24@gmail.com">submit</a></button>
     </form>
-   
-  </center>
+    </div>
+ 
 </body>
 </html>
